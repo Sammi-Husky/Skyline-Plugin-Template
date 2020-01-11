@@ -1,5 +1,7 @@
 **/*.elf
+**/*.nro
 *.elf
+*.nro
 **/*.o
 **/*.d
 build/
