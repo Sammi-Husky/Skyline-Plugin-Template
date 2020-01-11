@@ -1,0 +1,6 @@
+**/*.elf
+*.elf
+**/*.o
+**/*.d
+build/
+.vscode
