@@ -23,7 +23,7 @@ SOURCES		:= 	source source/skyline \
 					code-mod-framework/source/lib \
 					code-mod-framework/source/useful
 DATA		:=	data
-INCLUDES	:=	include code-mod-framework/include nnheaders
+INCLUDES	:=	include nnheaders
 
 #---------------------------------------------------------------------------------
 # options for code generation
