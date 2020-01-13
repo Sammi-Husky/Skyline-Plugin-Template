@@ -1,5 +1,5 @@
-#define MODULE_NAME "Skyline"
-#define MODULE_NAME_LEN 7
+#define MODULE_NAME "Skyline (CMF)"
+#define MODULE_NAME_LEN 13
 
 // rtld working object
 __attribute__((section(".bss"))) char __nx_module_runtime[0xD0];
@@ -10,5 +10,5 @@ struct ModuleName {
     char name[MODULE_NAME_LEN + 1];
 };
 
-__attribute__((section(".rodata.application_name")))
+__attribute__((section(".rodata.module_name")))
 const ModuleName module_name = {.unknown = 0, .name_lengh = MODULE_NAME_LEN, .name = MODULE_NAME};

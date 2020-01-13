@@ -1,3 +1,7 @@
 [submodule "nnheaders"]
 	path = nnheaders
 	url = https://github.com/ultimate-research/nnheaders.git
+[submodule "code-mod-framework"]
+	path = code-mod-framework
+	url = https://github.com/ultimate-research/code-mod-framework.git
+	branch = skyline-rewrite
